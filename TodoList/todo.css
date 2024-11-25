@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+h4 {
+    color: #333;
+}
+#taskname {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #088178;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#taskList {
+    margin-top: 20px;
+}
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.task span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:0.3s;
+}
+button:hover {
+    background: #007bff;
+    color: white;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
